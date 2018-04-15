@@ -1,0 +1,11 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "dependencies": {
+    "@types/lodash": "^4.14.106",
+    "lodash": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^9.6.5"
+  }
+}
