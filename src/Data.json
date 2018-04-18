@@ -1,301 +1,322 @@
-{
-  "attributes": {
-    "id": 1,
-    "language_id": 1,
-    "subdomain": "spbgbu",
-    "style": {
-      "mobile": [
+[
+  {
+    "attributes": {
+      "id": 1,
+      "unit_id": 1,
+      "city_id": 1,
+      "longitude": 36.063133530163554,
+      "latitude": 52.971382697592674,
+      "phone_number": "7777777777",
+      "tickets_per_day_limit": 0,
+      "minutes_before_ticket_extradition_stop": 0,
+      "entry_timeslot_length": 30,
+      "entry_timeslot_capacity": 20,
+      "entry_period": 30,
+      "ticket_identifier_type": "numeric_interval",
+      "multilang_name": [
         {
-          "name": "background",
-          "rgba": {
-            "a": "1",
-            "b": "71",
-            "g": "191",
-            "r": "106"
-          }
+          "id": 5,
+          "language_id": 1,
+          "nameable_id": 1,
+          "nameable_type": "points",
+          "value": "Малиновая вода"
+        },
+        {
+          "id": 6,
+          "language_id": 2,
+          "nameable_id": 1,
+          "nameable_type": "points",
+          "value": "Сrimson Water"
         }
       ],
-      "slogan": "111111c11d",
-      "infoboard": [
+      "multilang_description": [
         {
-          "name": "background",
-          "rgba": {
-            "a": 1,
-            "b": 88,
-            "g": 63,
-            "r": 223
-          }
+          "id": 1,
+          "language_id": 1,
+          "descriptionable_id": 1,
+          "descriptionable_type": "points",
+          "value": null
         },
         {
-          "name": "ticket_number",
-          "rgba": {
-            "a": "1",
-            "b": "255",
-            "g": "255",
-            "r": "255"
-          }
-        },
-        {
-          "name": "window",
-          "rgba": {
-            "a": "1",
-            "b": "0",
-            "g": "0",
-            "r": "0"
-          }
+          "id": 2,
+          "language_id": 2,
+          "descriptionable_id": 1,
+          "descriptionable_type": "points",
+          "value": null
         }
       ],
-      "pre_entry": [
+      "multilang_address": [
         {
-          "name": "background_active_tab_wizard",
-          "rgba": {
-            "a": "1",
-            "b": "0",
-            "g": "0",
-            "r": "0"
-          }
+          "id": 1,
+          "addressable_id": 1,
+          "addressable_type": "points",
+          "value": "Советский р-н, Орёл, Орловская обл., Россия",
+          "language_id": 1
         },
         {
-          "name": "background_active_tab_counter",
-          "rgba": {
-            "a": "1",
-            "b": "71",
-            "g": "191",
-            "r": "106"
-          }
-        },
-        {
-          "name": "font_count_active_tab",
-          "rgba": {
-            "a": "1",
-            "b": "255",
-            "g": "255",
-            "r": "255"
-          }
-        },
-        {
-          "name": "background_inactive_tab_wizard",
-          "rgba": {
-            "a": "1",
-            "b": "71",
-            "g": "191",
-            "r": "106"
-          }
-        },
-        {
-          "name": "background_counter_inactive_tabs",
-          "rgba": {
-            "a": "1",
-            "b": "0",
-            "g": "0",
-            "r": "0"
-          }
-        },
-        {
-          "name": "font_count_inactive_tab",
-          "rgba": {
-            "a": "1",
-            "b": "255",
-            "g": "255",
-            "r": "255"
-          }
-        },
-        {
-          "name": "day_previous_month",
-          "rgba": {
-            "a": "1",
-            "b": "255",
-            "g": "255",
-            "r": "255"
-          }
-        },
-        {
-          "name": "day_free_recording",
-          "rgba": {
-            "a": "1",
-            "b": "255",
-            "g": "255",
-            "r": "255"
-          }
-        },
-        {
-          "name": "day_with_no_available_recording_space",
-          "rgba": {
-            "a": "1",
-            "b": "71",
-            "g": "191",
-            "r": "106"
-          }
-        },
-        {
-          "name": "font_previous_month",
-          "rgba": {
-            "a": "1",
-            "b": "255",
-            "g": "255",
-            "r": "255"
-          }
-        },
-        {
-          "name": "font_day_without_available_places_write",
-          "rgba": {
-            "a": "1",
-            "b": "255",
-            "g": "255",
-            "r": "255"
-          }
-        },
-        {
-          "name": "font_day_free_writing",
-          "rgba": {
-            "a": "1",
-            "b": "255",
-            "g": "255",
-            "r": "255"
-          }
-        },
-        {
-          "name": "background_workspace",
-          "rgba": {
-            "a": "1",
-            "b": "255",
-            "g": "255",
-            "r": "255"
-          }
+          "id": 2,
+          "addressable_id": 1,
+          "addressable_type": "points",
+          "value": "Sovetskiy Rayon, Oryol, Oryol Oblast, Russia",
+          "language_id": 2
         }
-      ],
-      "registrator": [
-        {
-          "name": "background_top",
-          "rgba": {
-            "a": 1,
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "name": "text_top",
-          "rgba": {
-            "a": "1",
-            "b": "0",
-            "g": "0",
-            "r": "0"
-          }
-        },
-        {
-          "name": "background",
-          "rgba": {
-            "a": 1,
-            "b": 51,
-            "g": 140,
-            "r": 32
-          }
-        },
-        {
-          "name": "caption",
-          "rgba": {
-            "a": "1",
-            "b": "255",
-            "g": "255",
-            "r": "255"
-          }
-        },
-        {
-          "name": "background_btn",
-          "rgba": {
-            "a": "1",
-            "b": "255",
-            "g": "255",
-            "r": "255"
-          }
-        },
-        {
-          "name": "text_btn",
-          "rgba": {
-            "a": "1",
-            "b": "0",
-            "g": "0",
-            "r": "0"
-          }
-        }
-      ],
-      "window_board": [
-        {
-          "name": "background_window_number",
-          "rgba": {
-            "a": "1",
-            "b": "71",
-            "g": "191",
-            "r": "106"
-          }
-        },
-        {
-          "name": "window_number",
-          "rgba": {
-            "a": "1",
-            "b": "255",
-            "g": "255",
-            "r": "255"
-          }
-        },
-        {
-          "name": "background_status",
-          "rgba": {
-            "a": "1",
-            "b": "255",
-            "g": "255",
-            "r": "255"
-          }
-        },
-        {
-          "name": "status",
-          "rgba": {
-            "a": "1",
-            "b": "0",
-            "g": "0",
-            "r": "0"
-          }
-        }
-      ],
-      "mobileLogoUrl": "/storage/images/ANoeeztgJoi4EUoYBG8wTjsPjT7bVmEAuOpvvBml.png",
-      "registrator_logo_in_center": true
-    },
-    "font": "/storage/fonts/xsCSOlUcGgmWDYF5VJlpvvb2Z14wDBmawqHmiLar.ttf",
-    "bold_font": "/storage/",
-    "semi_bold_font": "/storage/",
-    "multilang_name": [
-      {
-        "id": 1,
-        "language_id": 1,
-        "nameable_id": 1,
-        "nameable_type": "companies",
-        "value": "СПБ ГБУ"
-      }
-    ],
-    "multilang_description": []
+      ]
+    }
   },
-  "included": {
-    "logo": {
-      "attributes": {
-        "id": 69,
-        "alt": null,
-        "url": "/storage/images/xaq1yFfXmUVIZOLf3PiWvuIbw0SquCNe772AXMAs.png"
-      },
-      "included": {
-         "info":{
-           "count": 1,
-           "description": "This is main logo"
-         }
-      }
-    },
-    "bg_image": null,
-    "mobile_logo": {
-      "attributes": {
-        "id": 75,
-        "alt": null,
-        "url": "/storage/images/ANoeeztgJoi4EUoYBG8wTjsPjT7bVmEAuOpvvBml.png"
-      }
+  {
+    "attributes": {
+      "id": 3,
+      "unit_id": 1,
+      "city_id": 1,
+      "longitude": 36.0663667,
+      "latitude": 52.9696631,
+      "phone_number": "123456",
+      "tickets_per_day_limit": 0,
+      "minutes_before_ticket_extradition_stop": 0,
+      "entry_timeslot_length": 30,
+      "entry_timeslot_capacity": 10,
+      "entry_period": 30,
+      "ticket_identifier_type": "numeric_interval",
+      "multilang_name": [
+        {
+          "id": 22,
+          "language_id": 1,
+          "nameable_id": 3,
+          "nameable_type": "points",
+          "value": "Новая ТОшка"
+        },
+        {
+          "id": 23,
+          "language_id": 2,
+          "nameable_id": 3,
+          "nameable_type": "points",
+          "value": null
+        }
+      ],
+      "multilang_description": [
+        {
+          "id": 11,
+          "language_id": 1,
+          "descriptionable_id": 3,
+          "descriptionable_type": "points",
+          "value": null
+        },
+        {
+          "id": 12,
+          "language_id": 2,
+          "descriptionable_id": 3,
+          "descriptionable_type": "points",
+          "value": null
+        }
+      ],
+      "multilang_address": [
+        {
+          "id": 5,
+          "addressable_id": 3,
+          "addressable_type": "points",
+          "value": "Орёл, Орловская обл., Россия",
+          "language_id": 1
+        },
+        {
+          "id": 6,
+          "addressable_id": 3,
+          "addressable_type": "points",
+          "value": "Oryol, Oryol Oblast, Russia",
+          "language_id": 2
+        }
+      ]
+    }
+  },
+  {
+    "attributes": {
+      "id": 4,
+      "unit_id": 1,
+      "city_id": 1,
+      "longitude": 36.06384589999993,
+      "latitude": 52.965186,
+      "phone_number": "93489734",
+      "tickets_per_day_limit": 0,
+      "minutes_before_ticket_extradition_stop": 0,
+      "entry_timeslot_length": 30,
+      "entry_timeslot_capacity": 10,
+      "entry_period": 30,
+      "ticket_identifier_type": "numeric_interval",
+      "multilang_name": [
+        {
+          "id": 24,
+          "language_id": 1,
+          "nameable_id": 4,
+          "nameable_type": "points",
+          "value": "ывапывап"
+        },
+        {
+          "id": 25,
+          "language_id": 2,
+          "nameable_id": 4,
+          "nameable_type": "points",
+          "value": "sdfgsdfg"
+        }
+      ],
+      "multilang_description": [
+        {
+          "id": 13,
+          "language_id": 1,
+          "descriptionable_id": 4,
+          "descriptionable_type": "points",
+          "value": null
+        },
+        {
+          "id": 14,
+          "language_id": 2,
+          "descriptionable_id": 4,
+          "descriptionable_type": "points",
+          "value": null
+        }
+      ],
+      "multilang_address": [
+        {
+          "id": 7,
+          "addressable_id": 4,
+          "addressable_type": "points",
+          "value": "Орёл, Орловская обл., Россия, 302028",
+          "language_id": 1
+        },
+        {
+          "id": 8,
+          "addressable_id": 4,
+          "addressable_type": "points",
+          "value": "Oryol, Oryol Oblast, Russia, 302028",
+          "language_id": 2
+        }
+      ]
+    }
+  },
+  {
+    "attributes": {
+      "id": 6,
+      "unit_id": 4,
+      "city_id": 1,
+      "longitude": 36.049216,
+      "latitude": 52.980461,
+      "phone_number": "фыафыва",
+      "tickets_per_day_limit": 0,
+      "minutes_before_ticket_extradition_stop": 0,
+      "entry_timeslot_length": 30,
+      "entry_timeslot_capacity": 10,
+      "entry_period": 30,
+      "ticket_identifier_type": "numeric_interval",
+      "multilang_name": [
+        {
+          "id": 42,
+          "language_id": 1,
+          "nameable_id": 6,
+          "nameable_type": "points",
+          "value": "Delete Test TO"
+        },
+        {
+          "id": 43,
+          "language_id": 2,
+          "nameable_id": 6,
+          "nameable_type": "points",
+          "value": null
+        }
+      ],
+      "multilang_description": [
+        {
+          "id": 25,
+          "language_id": 1,
+          "descriptionable_id": 6,
+          "descriptionable_type": "points",
+          "value": null
+        },
+        {
+          "id": 26,
+          "language_id": 2,
+          "descriptionable_id": 6,
+          "descriptionable_type": "points",
+          "value": null
+        }
+      ],
+      "multilang_address": [
+        {
+          "id": 11,
+          "addressable_id": 6,
+          "addressable_type": "points",
+          "value": "Орловская обл., Россия, 302020",
+          "language_id": 1
+        },
+        {
+          "id": 12,
+          "addressable_id": 6,
+          "addressable_type": "points",
+          "value": "Oryol Oblast, Russia, 302020",
+          "language_id": 2
+        }
+      ]
+    }
+  },
+  {
+    "attributes": {
+      "id": 7,
+      "unit_id": 5,
+      "city_id": 1,
+      "longitude": 36.06384589999993,
+      "latitude": 52.965186,
+      "phone_number": "123456",
+      "tickets_per_day_limit": 0,
+      "minutes_before_ticket_extradition_stop": 0,
+      "entry_timeslot_length": 30,
+      "entry_timeslot_capacity": 10,
+      "entry_period": 30,
+      "ticket_identifier_type": "numeric_interval",
+      "multilang_name": [
+        {
+          "id": 51,
+          "language_id": 1,
+          "nameable_id": 7,
+          "nameable_type": "points",
+          "value": "new TO"
+        },
+        {
+          "id": 52,
+          "language_id": 2,
+          "nameable_id": 7,
+          "nameable_type": "points",
+          "value": "new TO"
+        }
+      ],
+      "multilang_description": [
+        {
+          "id": 33,
+          "language_id": 1,
+          "descriptionable_id": 7,
+          "descriptionable_type": "points",
+          "value": null
+        },
+        {
+          "id": 34,
+          "language_id": 2,
+          "descriptionable_id": 7,
+          "descriptionable_type": "points",
+          "value": null
+        }
+      ],
+      "multilang_address": [
+        {
+          "id": 13,
+          "addressable_id": 7,
+          "addressable_type": "points",
+          "value": "Орёл, Орловская обл., Россия, 302028",
+          "language_id": 1
+        },
+        {
+          "id": 14,
+          "addressable_id": 7,
+          "addressable_type": "points",
+          "value": "Oryol, Oryol Oblast, Russia, 302028",
+          "language_id": 2
+        }
+      ]
     }
   }
-}
+]
